@@ -14,11 +14,11 @@ body {
   background-color: #16383a;
   height: 100%;
   text-align: center;
+  padding-top: 18vh;
 }
 
 .landing img {
-  width: 550px;
-  padding-top: 7%;
+
   // width: 500px;
   // height: 500px;
 }
@@ -32,7 +32,7 @@ body {
   color: #16383a;
   letter-spacing: .2rem;
   font-family: 'Crimson Text', serif;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 600;
 }
 
@@ -44,12 +44,12 @@ body {
 
 .text::after {
   content:'';
-  height:1px;
+  height: 0.5px;
   width:20%;
   background: #16383a;
   position:absolute;
   left:calc(50% - 10%);
-  bottom: 2vh;
+  bottom: 6vh;
 }
 
 .text p {
@@ -57,7 +57,7 @@ body {
 
   letter-spacing: 0.2rem;
   color: #16383a;
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Crimson Text';
 }
 
@@ -75,6 +75,10 @@ body {
     width: 70%;
     height: 70%;
     padding-top: unset;
+  }
+
+  .landing {
+    padding-top: unset
   }
 
   .title h3 {
